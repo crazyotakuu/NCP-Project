@@ -1,0 +1,140 @@
+
+    /* .navbar {
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
+/*.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 50px;
+}*/ */
+
+
+/* #shapes h1 {
+  font-size: 30px;
+  margin: 0;
+  padding: 5px 0;
+  line-height: 1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.shape{
+  font-size: 60px;
+  color: #f82249;
+
+} */
+/* .sizzing {
+  color: white;
+  font-size: 30px
+} */
+
+
+.line{
+  
+  border: 5px solid black ;
+ border-radius: 40px;
+ top:40%;
+       left:50%;
+       
+       height:360px;
+}
+
+.upload_box{
+font-family: lato;  
+font-size: 20px;
+background: white;
+border-radius: 50px;
+box-shadow: 5px 5px 10px ;
+width: 500px;
+outline: none;
+padding: 10px 40px 10px 10px;
+}
+.file-upload{
+  padding: 50px 40px 80px 80px;
+}
+h1{
+  padding: 10px 10px 10px 10px;
+  font-family: lato;
+  font-size: 50px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .file_load input {
+    float: none;
+    width: 20%;
+    padding: 10px 5px 0px 10px;
+    font-size: 10px;
+  }
+  .file-upload{
+  padding: 50px 10px 80px 10px;
+}
+.upload_box{
+  width: 300px;
+}
+}
+@media screen and (max-width: 992px) {
+  .file_load input {
+    float: none;
+    width: 20%;
+    padding: 10px 5px 0px 0px;
+    font-size: 10px;
+  }
+.upload_box{
+  width: 300px;
+}
+}
+#title{
+color:  #f82249;
+font-size: 50px;
+font-family: 'Lato', sans-serif;
+font-weight: 600;
+letter-spacing: 3px;
+}
+#in-title{
+    font-size: 35px;
+    color: aliceblue;
+    font-family: 'Merriweather', serif;
+}
+#items{
+    color: aliceblue;
+    margin-right: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+.nav-item:hover{
+    background-color:rgb(165, 165, 165);
+    color: aliceblue;
+    letter-spacing: 3px;
+
+}
+i{
+    font-size: 45px;
+    color: aliceblue;
+    margin-right: 10px;
+}
+@media (min-width:992px) and (max-width:1199px) { 
+#items{
+    
+    color: aliceblue;
+    margin-right: 15px;
+    border: 2px solid rgb(203, 230, 253);
+    border-radius: 30px;
+}
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width:1200px){ 
+#items{
+    color: aliceblue;
+    margin-right: 15px;
+    border: 2px solid rgb(203, 230, 253);
+    border-radius: 25px;
+}
+
+ }

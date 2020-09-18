@@ -1,0 +1,117 @@
+#title{
+color:  #f82249;
+font-size: 50px;
+font-family: 'Lato', sans-serif;
+font-weight: 600;
+letter-spacing: 3px;
+}
+#in-title{
+    font-size: 35px;
+    color: aliceblue;
+     font-family: 'Merriweather', serif;
+}
+#items{
+    color: aliceblue;
+    margin-right: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+.nav-item:hover{
+    background-color:rgb(165, 165, 165);
+    color: aliceblue;
+    letter-spacing: 3px;
+
+}
+i{
+    font-size: 45px;
+    color: aliceblue;
+    margin-right: 10px;
+}
+@media (min-width:992px) and (max-width:1199px) { 
+#items{
+    
+    color: aliceblue;
+    margin-right: 15px;
+    border: 2px solid rgb(203, 230, 253);
+    border-radius: 30px;
+}
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width:1200px){ 
+#items{
+    color: aliceblue;
+    margin-right: 15px;
+    border: 2px solid rgb(203, 230, 253);
+    border-radius: 25px;
+}
+
+ }
+
+.container-fluid{
+    width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* **********************sidebar *************/
+.sidebar {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+  
+    overflow: auto;
+  }
+ 
+  .row a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    /*padding: 100px 8px 6px 16px;*/
+  }
+   
+ .row a.active {
+    /* background-color: ; */
+    color: white;
+  
+  }
+  .row a:hover {
+    background-color: #f82249;
+    color: white;
+  }
+  
+  
+  .row a:hover:not(.active) {
+    background-color: #f82249;
+    color: white;
+  }
+  
+ 
+/********************
+        body
+              *****************/
+
+              .len{
+                padding: 80px 400px 10px 20px;
+              }
+              .w3-example{background-color:#f1f1f1;
+                  padding:0.01em 16px;
+                  margin:20px 0;
+                  box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important}
+              
+                  .w3-code span.marked {
+               color:#e80000;
+               background-color:transparent;
+              }
+              
+              .tagnamecolor{color:brown}  
+              
+              .tagcolor{color:mediumblue} 
+              .attributecolor{color:red} 

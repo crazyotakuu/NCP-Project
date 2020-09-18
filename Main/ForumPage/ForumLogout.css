@@ -1,0 +1,20 @@
+.option
+{
+  padding: 10px 10px 10px 10px;
+}
+.option:hover
+{
+  letter-spacing: 3px;
+}
+.wrapper
+{
+    border: 1px solid rgb(204, 202, 202);
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.wrapper
+{
+    border: 1px solid rgb(204, 202, 202);
+    border-radius: 8px;
+    margin-bottom: 5px;
+}

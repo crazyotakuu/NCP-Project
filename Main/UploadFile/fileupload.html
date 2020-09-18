@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>File upload</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;600&display=swap" rel="stylesheet">
+	
+
+  <script>
+var valid = false;
+var name=" "
+function validate_fileupload(input_element)
+{
+    var el = document.getElementById("feedback");
+    var fileName = input_element.value;
+    var allowed_extensions = new Array("html");;
+    name=fileName
+    var file_extension = fileName.split('.').pop(); 
+      for(var i = 0; i < allowed_extensions.length; i++)
+    {
+        if(allowed_extensions[i]==file_extension)
+        {
+            valid = true; // valid file extension
+            el.innerHTML = "";
+            return;
+        }
+    }
+    
+    el.innerHTML="Invalid file";
+    valid = false;
+}
+
+function valid_form()
+{ 
+  if(valid==true){
+    var con="successfully uploaded";
+    return window.alert(con);}
+    if (valid==false){
+      var wrong="upload only html files";
+      return window.alert(wrong);
+    }
+}
+</script>
+
+
+</head>
+<body>
+	<!--==========================
+    Header
+  ============================-->
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+
+  <a class="navbar-brand" href="Main.html"> <i class="fas fa-code"></i><span id="title">HTML</span><span
+      id="in-title">Validator</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active" id="items">
+        <a class="nav-link" href="fileupload.html">Upload File <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active" id="items">
+        <a class="nav-link" href="UploadCode/Input page updated.html">Upload Code <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active" id="items">
+        <a class="nav-link" href="ForumPage/ForumMain.html">&nbspForum&nbsp<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active" id="items">
+        <a class="nav-link" href="References/references.html">Resources <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active" id="items">
+        <a class="nav-link" href="About/AboutUs.html">About <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid">
+</br>
+<!-- style="border: 5px solid black ; top: 40%;border-radius: 40px; left: 50%; height: 360px;" -->
+  <div class="line" style="border: 5px solid black ; top: 40%;border-radius: 40px; left: 50%; height: 360px;">
+<h1>File upload</h1>
+<div class="row">
+<div class="file-upload"id="file_load">
+  <!--
+  use this input directly to upload only html files
+   <input type="file" id="file" name="file" class="upload_box" accept="html/*,.html" onchange="validate_fileupload(this);"> -->
+    <input type="file" id="file" name="file" class="upload_box "  onchange="validate_fileupload(this);">
+    <button type="button" class="btn btn-secondary btn-lg" onclick="return valid_form();">upload</button>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

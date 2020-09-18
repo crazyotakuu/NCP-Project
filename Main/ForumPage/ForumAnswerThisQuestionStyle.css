@@ -1,0 +1,49 @@
+.option
+{
+  padding: 10px 10px 10px 10px;
+}
+.option:hover
+{
+  letter-spacing: 3px;
+}
+.wrapper
+{
+    margin-bottom: 5px;
+}
+.wrapper
+{
+    margin-bottom: 5px;
+}
+.bttn
+{
+  margin-bottom: 10px;
+  background-color: rgb(204, 202, 202);
+  color: black;
+  border: none;
+  padding: 10px 10px 10px 10px;
+}
+.bttn:hover
+{
+  color: rgb(204, 202, 202);
+  background-color: black;
+}
+.ent
+{
+  margin-bottom: 10px;
+  height: 300px;
+  width:100%;
+  border: 1px solid rgb(204, 202, 202);
+}
+
+.Answer
+{
+    border: 1px solid rgb(204, 202, 202);
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.Answer
+{
+    border: 1px solid rgb(204, 202, 202);
+    border-radius: 8px;
+    margin-bottom: 5px;
+}

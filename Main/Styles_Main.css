@@ -1,0 +1,83 @@
+#title{
+color:  #f82249;
+font-size: 50px;
+font-family: 'Lato', sans-serif;
+font-weight: 600;
+letter-spacing: 3px;
+}
+#in-title{
+    font-size: 35px;
+    color: aliceblue;
+}
+.nav-item:hover{
+    background-color:rgb(165, 165, 165);
+    color: aliceblue;
+    letter-spacing: 3px;
+
+}
+#items{
+    color: white;
+    margin-right: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+.card{
+    float: left;
+}
+
+i{
+    font-size: 45px;
+    color: aliceblue;
+    margin-right: 10px;
+}
+body{   
+    font-family: 'Merriweather', serif;
+}
+strong{
+    font-weight: 600;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width:256px) and (max-width:767px) { 
+.card{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width:768px) and (max-width:991px) { 
+.card{
+    margin-left: 13%;
+    margin-top: 5%;
+}
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width:992px) and (max-width:1199px) { 
+#items{
+    
+    color: aliceblue;
+    margin-right: 15px;
+    border: 2px solid rgb(203, 230, 253);
+    border-radius: 25px;
+}
+.card{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width:1200px){ 
+#items{
+    color: aliceblue;
+    margin-right: 15px;
+    border: 2px solid rgb(203, 230, 253);
+    border-radius: 25px;
+}
+.card{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+ }
